@@ -1,0 +1,17 @@
+#grid{
+   display: flex; 
+   width: 400px;
+   height: 300px;
+   flex-wrap: wrap;
+}
+
+img{
+    margin: .2em;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
